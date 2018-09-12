@@ -1,0 +1,34 @@
+﻿
+
+.logo {
+    width: 80px;
+    background-color: #d3d5fd;
+}
+
+.menuBar {
+    display: flex;
+    flex-direction: column;
+    min-width: 120px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    
+}
+.menuItem {
+    padding: 5px;
+    font-family: 'Arial Black';
+}
+
+@media (min-width: 768px) {
+    .logo {
+        width: 80px;
+    }
+    .menuBar {
+        flex-direction: column
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+}

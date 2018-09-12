@@ -1,0 +1,60 @@
+﻿.contactUs {
+    flex: 1;
+}
+.companyName {
+    background-color: #929aab;
+    width: 100%;
+    padding: 20px;
+    font-family: Arial Black;
+    font-size: large
+}
+
+.address {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mapAddress {
+    display: flex;
+    flex-direction: column;
+}
+.formHolder {
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    width: 100%
+}
+.formRow {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.formLabel {
+    flex: 1;
+}
+.formInput {
+    padding-left: 10px;
+    flex: 6;
+}
+.button {
+    background-color: #474a56; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .mapAddress {
+
+        flex-direction: row;
+    }
+    .address {
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+}
